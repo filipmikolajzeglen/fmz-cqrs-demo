@@ -1,0 +1,8 @@
+###
+POST http://localhost:8080/cqrs/nice/users
+Content-Type: application/json
+
+{
+   "name": "Filip Nice",
+   "email": "filip.nice@example.com"
+}

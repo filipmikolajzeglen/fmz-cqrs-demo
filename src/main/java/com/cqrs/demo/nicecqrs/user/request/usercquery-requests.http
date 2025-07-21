@@ -1,0 +1,42 @@
+###
+GET http://localhost:8080/cqrs/nice/users
+
+###
+GET http://localhost:8080/cqrs/nice/users/id
+Content-Type: application/json
+
+{
+   "id": 1
+}
+
+###
+GET http://localhost:8080/cqrs/nice/users/optional/id
+Content-Type: application/json
+
+{
+   "name": "Anna Nowak"
+}
+
+###
+GET http://localhost:8080/cqrs/nice/users/exist/id
+Content-Type: application/json
+
+{
+   "email": "jan.kowalski@example.com"
+}
+
+###
+GET http://localhost:8080/cqrs/nice/users/count
+Content-Type: application/json
+
+{
+   "name": "Piotr Zieliński"
+}
+
+###
+GET http://localhost:8080/cqrs/nice/users/first
+Content-Type: application/json
+
+{
+   "name": "Piotr Zieliński"
+}

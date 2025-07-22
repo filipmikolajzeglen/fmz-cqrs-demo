@@ -1,4 +1,4 @@
-# NOT COOL CQRS BU SIMPLE
+# NOT COOL CQRS BUT SIMPLE
 
 ## Prosty, "surowy" CQRS bez zewnętrznych bibliotek
 To podejście jest pierwszym krokiem w kierunku implementacji wzorca CQRS. Polega na ręcznym rozdzieleniu logiki zapisu (Commands) od logiki odczytu (Queries).

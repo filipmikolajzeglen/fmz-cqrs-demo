@@ -24,7 +24,7 @@ public class UserCQuery extends AutonomousQuery<UserC>
    @Override
    protected <RESULT> RESULT perform(AutonomousQueryContext context, ResultStrategy<UserC, RESULT> resultStrategy)
    {
-      var query =  DatabaseQuery.builder(UserC.class)
+      var query = DatabaseQuery.builder(UserC.class)
             .property(UserC::getId).optionally().equalTo(Optional.ofNullable(id))
             .property(UserC::getName).optionally().equalTo(Optional.ofNullable(name))
             .property(UserC::getEmail).optionally().equalTo(Optional.ofNullable(email))

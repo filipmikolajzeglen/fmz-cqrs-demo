@@ -28,7 +28,7 @@ CQRSDemoApplication.java
     - ResultStrategy.optional(): zwraca Optional z wynikiem.
     - ResultStrategy.exist(): zwraca boolean informujący, czy obiekt istnieje.
     - ResultStrategy.count(): zwraca liczbę pasujących obiektów.
-    - 
+    
 ## Główne zalety
  - **Prostota i redukcja kodu:** Kontrolery są bardzo "chude" i proste. Cała logika jest zamknięta w komendach i zapytaniach.
  - **Centralizacja i automatyzacja:** Dispatcher automatyzuje proces znajdowania i wywoływania handlerów oraz zarządzania transakcjami.
